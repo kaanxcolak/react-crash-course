@@ -5,9 +5,15 @@ import './App.css'
 import Post from './components/Post';
 
 function App() {
-    const [count, setCount] = useState(0)
+    return (
+        <main>
+            <Post />
+            <Post />
+            <Post />
+        </main>
 
-    return <Post / >
+
+    )
 }
 
 export default App
