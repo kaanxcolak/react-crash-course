@@ -1,6 +1,6 @@
-import classess from './Post.module.css'
+import classes from './Post.module.css'
 function Post(props) {
-    const chosenName = Math.random() > 0.5 ? names[0] : names[1];
+    //const chosenName = Math.random() > 0.5 ? names[0] : names[1];
     return (
 <div className={classes.post}>
     <p className={classes.author}>{props.author}</p>
